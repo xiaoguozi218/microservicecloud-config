@@ -37,7 +37,7 @@ eureka:
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:     # 关于我们
-  app.name: atguigu-microservicecloud
+  app.name: atguigu-microservicecloud01
   company.name: www.atguigu.com
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
@@ -53,7 +53,7 @@ spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
         driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
-        url: jdbc:mysql://39.106.28.244:3306/cloudDB01              # 数据库名称
+        url: jdbc:mysql://39.106.28.244:3306/cloudDB02              # 数据库名称
         username: root
         password: 2131127
         dbcp2:
@@ -77,7 +77,7 @@ eureka:
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:     # 关于我们
-  app.name: atguigu-microservicecloud
+  app.name: atguigu-microservicecloud02
   company.name: www.atguigu.com
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}

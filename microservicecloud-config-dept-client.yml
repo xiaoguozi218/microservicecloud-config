@@ -42,7 +42,7 @@ info:     # 关于我们
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
   
- ---
+---
 server:
   port: 8001
 
